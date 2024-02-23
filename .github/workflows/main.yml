@@ -19,7 +19,7 @@ jobs:
           architecture: 'x86' # optional x64 or x86. Defaults to x64 if not specified
 
       # Build python script into a stand-alone exe
-      - uses: Nuitka/Nuitka-Action@main
+      - uses: Nuitka/Nuitka-Action@v0.4
         with:
           nuitka-version: 1.7
           script-name: hello_world.py
