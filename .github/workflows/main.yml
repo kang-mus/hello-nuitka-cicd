@@ -1,4 +1,6 @@
-on: []
+name: Test Compile Using Nuitka
+
+on: [push]
 
 jobs:
   build:
